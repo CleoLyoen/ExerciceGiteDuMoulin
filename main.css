@@ -1,0 +1,98 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+button {
+    display: inline-block;
+    background-color: #a5ce96;
+    border-radius: 70px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    width: 270px;
+    margin: 5px;
+  }
+
+.reservation {
+    background-color: black;
+    border-radius: 0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    width: 236px;
+    height :60px;
+    margin: 5px;
+    margin-left: 42%;
+}
+
+
+  .logo {
+    width: 150px;
+    height: 100px;
+
+}
+
+.imagesinsolites {
+width: 450px;
+height: 340px;
+margin-right: 40px;
+margin-left: 25px;
+
+}
+
+.imagesclassiques {
+    width: 450px;
+    height: 340px;
+    margin-right: 40px;
+    margin-left: 25px;
+
+}
+
+.imagesservices{
+    width: 450px;
+    height: 300px;
+    margin-right: 40px;
+    margin-left: 25px;
+
+}
+.background {
+
+    background: url(image/grandvisueldesktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    }
+
+.footercleaner {
+        padding:50px 0;
+        background-color: #a5ce96 ;
+        color: black;
+      }
+
+.listecoordonnees{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.listecoordonnees li a {
+display : block
+}
