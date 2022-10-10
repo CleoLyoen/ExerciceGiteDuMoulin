@@ -3,7 +3,8 @@ a {
     text-decoration: none;
     color: black;
 }
-ul {
+
+.nav-list  {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -12,6 +13,10 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+
+body{
+margin: 0;
+} 
 
 
 
@@ -42,10 +47,9 @@ button {
 }
 
 
-  .logo {
+.logo {
     width: 150px;
     height: 100px;
-
 }
 
 .imagesinsolites {
@@ -53,7 +57,6 @@ width: 450px;
 height: 340px;
 margin-right: 40px;
 margin-left: 25px;
-
 }
 
 .imagesclassiques {
@@ -61,16 +64,94 @@ margin-left: 25px;
     height: 340px;
     margin-right: 40px;
     margin-left: 25px;
-
 }
 
-.imagesservices{
-    width: 450px;
-    height: 300px;
+/*SECTION PHOTO*/
+
+.div-categoryContainer{
+	box-sizing: border-box;
+	margin: 50px auto;
+	padding: auto;
+	width: 100%; min-height: 400px;
+
+	font-family: sans-serif;
+	font-size: 1em;
+	color: black;
+
+	background-color: #edd390;
+}
+
+.image1{
+    width: 700px;
+    height: 400px;
+    display: flex;
     margin-right: 40px;
     margin-left: 25px;
-
+    float:left;
 }
+
+.logo 
+{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+.image2{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 25px;
+    align-content: flex-end;
+    justify-content: right;
+    float: right;
+}
+
+.image3{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 25px;
+    align-content: flex-end;
+   justify-content: left;
+   float : left;
+}
+
+.image4{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 25px;
+    align-content: flex-end;
+    justify-content: right;
+    float: right;
+}
+
+
+.Suivez-nous{
+    list-style: none;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: flex-end
+}
+
+.IG {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: flex-end
+}
+
+
+
+
 .background {
 
     background: url(image/grandvisueldesktop.jpg);
@@ -81,18 +162,45 @@ margin-left: 25px;
     width: 100%;
     }
 
-.footercleaner {
-        padding:50px 0;
+/*footer*/
+
+    footer{
+
+    flex-shrink: 0;
+    }
+
+
+
+.containerfooter {
+        flex-direction: center;
+        margin: 0 auto;
         background-color: #a5ce96 ;
         color: black;
-      }
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-size: 18px;
+    }
 
-.listecoordonnees{
-    display: flex;
-    justify-content: flex-start;
-    
+.blocFooterContact {
+    margin-left: 20%;
 }
 
-.listecoordonnees li a {
-display : block
+.blocFooterRéseau{
+    margin-right: 20%;
 }
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
